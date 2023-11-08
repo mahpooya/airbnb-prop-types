@@ -1,4 +1,4 @@
-# prop-types <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# @mahpooya/airbnb-prop-types <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -97,7 +97,7 @@ Since `PropTypes` are typically not included in production builds of React, this
 ## Tests
 Clone the repo, `npm install`, `npm run react`, and run `npm test`
 
-[package-url]: https://npmjs.org/package/airbnb-prop-types
+[package-url]: https://npmjs.org/package/@mahpooya/airbnb-prop-types
 [npm-version-svg]: http://versionbadg.es/airbnb/prop-types.svg
 [travis-svg]: https://travis-ci.org/airbnb/prop-types.svg
 [travis-url]: https://travis-ci.org/airbnb/prop-types
