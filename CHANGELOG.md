@@ -1,3 +1,15 @@
+2.16.2 / 2023-11-15
+==================
+  * [New] use `@babel/plugin-transform-object-assign` instead of `babel-plugin-transform-replace-object-assign`
+  * [New] use `shx` for scripts cp and mv
+  * [New] extract and use `ifReact` from `enzyme-adapter-react-helper` and remove dependency to that package because enzyme is based on react 16 and it prevent this package from build
+  * [Dev Deps] remove `enzyme-adapter-react-helper` install `shx`
+
+2.16.1 / 2023-11-10
+==================
+  * [Deps] update `array.prototype.find`, `array.prototype.flatmap`, `function.prototype.name`, `is-regex`, `object-is`, `object.assign`, `object.entries`, `prop-types`, `react-is`
+  * [Dev Deps] update `@babel/cli`, `@babel/core`, `@babel/register`, `babel-plugin-istanbul`, `babel-preset-airbnb`, `chai`, `enzyme-adapter-react-helper`, `eslint`, `eslint-config-airbnb`, `eslint-plugin-import`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `enzyme-adapter-react-helper`, `mocha`, `nyc`, `object-inspect`, `object.values`, `react`, `reflect.ownkeys`, `rimraf`, `safe-publish-latest`
+
 2.16.0 / 2020-06-30
 ==================
   * [New] add `predicate` validator
